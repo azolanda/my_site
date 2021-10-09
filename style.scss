@@ -7,6 +7,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
 .top {
     // height: 100vh;
 
@@ -169,6 +179,9 @@ body {
     background-color: #771825;
     // #941727
 
+    flex-shrink: 0;
+
+
     &_contacts {
         display: flex;
         justify-content: space-around;
@@ -319,6 +332,46 @@ body {
 
         &_copy {
             padding: 3vh 0;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .top {
+        .logo {
+            padding-right: 0;
+        }
+    }
+
+    .advantages {
+        padding: 10vh 7vw 5vh;
+
+        &__item {
+            width: 70vw;
+        }
+
+        &__text {
+            padding: 3vw;
+        }
+    }
+
+    .services {
+        &__img-programmer {
+            height: 60vw;
+            width: 60vw;
+        }
+    }
+
+    .bottom {
+        width: 100vw;
+
+        &_contacts {
+            padding: 7vh 6vw 0;
+        }
+
+        &_cat {
+            height: auto;
+            width: 80vw;
         }
     }
 }
