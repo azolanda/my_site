@@ -153,7 +153,7 @@ body {
 
     &__item {
         min-height: 35vh;
-        width: 260px;
+        min-width: 260px;
         border: 1px solid #36384F + #888888;
         border-radius: 10px;
         display: flex;
