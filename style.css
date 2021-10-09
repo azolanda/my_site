@@ -27,13 +27,12 @@ body {
 .top__section {
   background-color: #941727;
   opacity: 0.8;
-  max-height: 70px;
+  height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -43,8 +42,8 @@ body {
 }
 
 .top .logo {
-  height: 150px;
-  padding-right: 50px;
+  height: 56px;
+  padding: 7px 9vw 7px 17vw;
 }
 
 .menu {
@@ -56,6 +55,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 5vw;
 }
 
 .menu__checkbox {
