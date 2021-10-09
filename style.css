@@ -172,7 +172,7 @@ body {
 }
 
 .advantages__item {
-  min-height: 40vh;
+  min-height: 35vh;
   width: 260px;
   border: 1px solid #bec0d7;
   border-radius: 10px;
@@ -348,11 +348,11 @@ body {
             align-items: center;
   }
   .advantages__item {
-    width: 40vw;
+    width: 65vw;
     margin-bottom: 5vh;
   }
   .advantages__img {
-    max-width: 30vw;
+    max-width: 60vw;
   }
   .bottom_contacts {
     -webkit-box-orient: vertical;
@@ -395,6 +395,15 @@ body {
   .bottom_cat {
     height: auto;
     width: 80vw;
+  }
+}
+
+@media (max-width: 639px) {
+  #carouselExampleIndicators {
+    margin-top: 59px;
+  }
+  .advantages__item {
+    min-height: 30vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
