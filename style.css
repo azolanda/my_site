@@ -292,6 +292,14 @@ body {
     width: 100vw;
     text-align: center;
   }
+  .menu__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .menu__link:hover {
     color: white;
     background-color: #550003;

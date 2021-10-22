@@ -255,7 +255,10 @@ body {
             text-align: center;
         }
 
-
+        &__link {
+            display: flex;
+            justify-content: center;
+        }
 
         &__link:hover {
             color: white;
