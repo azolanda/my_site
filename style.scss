@@ -123,7 +123,9 @@ body {
     }
 
     &__img-programmer {
-        height: 45vh;
+        height: 35vh;
+        display: flex;
+        align-self: center;
     }
 
     hr {
@@ -147,13 +149,13 @@ body {
     &__items {
         display: flex;
         justify-content: space-around;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
     }
 
 
     &__item {
         min-height: 35vh;
-        min-width: 260px;
+        // min-width: 260px;
         border: 1px solid #36384F + #888888;
         border-radius: 10px;
         display: flex;
@@ -322,13 +324,13 @@ body {
         }
 
         &__item {
-            width: 65vw;
+            width: 45vw;
             margin-bottom: 5vh;
         }
 
         &__img {
             // max-height: 37vh;
-            max-width: 60vw;
+            max-width: 40vw;
         }
     }
 
@@ -362,8 +364,13 @@ body {
             width: 70vw;
         }
 
+        &__img {
+            max-width: 60vw;
+        }
+
         &__text {
             padding: 3vw;
+            font-size: 1.2em;
         }
     }
 
