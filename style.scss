@@ -52,8 +52,6 @@ body {
     &__list {
         list-style-type: none;
         padding-right: 50px;
-        width: 100vw;
-        text-align: center;
     }
 
     &__link {
@@ -253,6 +251,8 @@ body {
 
         &__list {
             padding-right: 0;
+            width: 100vw;
+            text-align: center;
         }
 
 
