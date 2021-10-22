@@ -52,6 +52,8 @@ body {
     &__list {
         list-style-type: none;
         padding-right: 50px;
+        width: 100vw;
+        text-align: center;
     }
 
     &__link {
@@ -109,7 +111,7 @@ body {
     padding: 10vh 17vw 5vh;
 
     &__text {
-        text-align: justify;
+        text-align: left;
         font-size: 1.1em;
     }
 
@@ -123,7 +125,7 @@ body {
     }
 
     &__img-programmer {
-        height: 65vh;
+        height: 45vh;
     }
 
     hr {
@@ -285,7 +287,13 @@ body {
         transform: rotate(45deg);
     }
 
+    .company {
+        padding: 10vh 7vw 0;
+    }
+
     .services {
+        padding: 10vh 7vw 5vh;
+
         &__item {
             flex-direction: column;
         }

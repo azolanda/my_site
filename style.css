@@ -65,6 +65,8 @@ body {
 .menu__list {
   list-style-type: none;
   padding-right: 50px;
+  width: 100vw;
+  text-align: center;
 }
 
 .menu__link {
@@ -125,7 +127,7 @@ body {
 }
 
 .services__text {
-  text-align: justify;
+  text-align: left;
   font-size: 1.1em;
 }
 
@@ -142,7 +144,7 @@ body {
 }
 
 .services__img-programmer {
-  height: 65vh;
+  height: 45vh;
 }
 
 .services hr {
@@ -319,6 +321,12 @@ body {
     background-image: url(img/134224_add_plus_new_icon.svg);
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
+  }
+  .company {
+    padding: 10vh 7vw 0;
+  }
+  .services {
+    padding: 10vh 7vw 5vh;
   }
   .services__item {
     -webkit-box-orient: vertical;
